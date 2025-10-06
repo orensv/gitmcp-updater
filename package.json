@@ -1,0 +1,41 @@
+{
+  "name": "gitmcp-updater",
+  "displayName": "GitMCP Updater",
+  "description": "Updates a local mcp.json file with a server address from a GitHub repository URL.",
+  "version": "0.0.1",
+  "publisher": "orensv",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:gitmcp.updateFile"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "gitmcp.updateFile",
+        "title": "GitMCP: Update mcp.json from GitHub URL"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.80.0",
+    "@types/node": "18.x",
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "eslint": "^8.45.0",
+    "typescript": "^5.1.6"
+  }
+}
+
