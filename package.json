@@ -3,7 +3,7 @@
   "displayName": "GitMCP Updater",
   "description": "Updates a local mcp.json file with a server address from a GitHub repository URL.",
   "version": "0.0.1",
-  "publisher": "orensv",
+  "publisher": "orensv-gitmcp-updater",
   "engines": {
     "vscode": "^1.80.0"
   },
