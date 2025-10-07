@@ -1,8 +1,10 @@
 {
   "name": "gitmcp-updater",
+  "license": "MIT",
+  "icon": "icon.png",
   "displayName": "GitMCP Updater",
   "description": "Quickly add a GitMCP server to your mcp.json from a GitHub URL.",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "publisher": "orensv-gitmcp-updater",
   "engines": {
     "vscode": "^1.80.0"
