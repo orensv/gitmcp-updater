@@ -3,8 +3,6 @@ GitMCP Updater
 
 Quickly add a GitMCP server to your mcp.json from a GitHub repository URL.
 
-> **Note:** This project was built to test AI-assisted pair programming.
-
 Install
 -------
 Search for "GitMCP Updater" in Cursor's extensions marketplace or use `vsce` to create a VSIX package and install manually.
